@@ -9,6 +9,7 @@ namespace Features.Controller
         public uint uid;
     }
     
+    [InternalBufferCapacity(16)]
     public struct ChildInstance : IBufferElementData
     {
         public Entity entity;
