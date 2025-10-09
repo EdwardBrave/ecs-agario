@@ -25,3 +25,6 @@ MonoBehaviour:
     enemyProximityExpModifier: -0.3
     foodDirectionWeight: 1
     foodProximityExpModifier: -0.4
+  scenesConfig:
+    gameSceneName: Game
+    mainMenuSceneName: MainMenu

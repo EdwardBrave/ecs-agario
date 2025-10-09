@@ -9,7 +9,7 @@ namespace HSM
 #if UNITY_EDITOR && DEBUG
         public readonly List<string> statesStack = new ();
 
-        public override void OnUpdate(SystemBase system)
+        protected override void OnUpdate(SystemBase system)
         {
             statesStack.Clear();
             BaseState subState = SubState as BaseState;

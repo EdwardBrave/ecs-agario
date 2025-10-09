@@ -18,9 +18,9 @@
             Parent = parent;
         }
         
-        protected void SetState<TState>(TState state) where TState : BaseState, ISubState<TParent>
+        protected void SetState<TState>(TState state) where TState : ISubState<TParent>
         {
-            Parent.SetSubStateInternal(state);
+            Parent.SetSubStateInternal(state as BaseState);
         }
     }
 }

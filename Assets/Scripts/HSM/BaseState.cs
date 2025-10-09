@@ -27,10 +27,10 @@ namespace HSM
 
         protected virtual List<Type> RequiredSystems => new();
         
-        public virtual void OnEnter(SystemBase system){}
-        public virtual void OnUpdate(SystemBase system){}
-        public virtual void OnLateUpdate(SystemBase system){}
-        public virtual void OnExit(SystemBase system){}
+        protected virtual void OnEnter(SystemBase system){}
+        protected virtual void OnUpdate(SystemBase system){}
+        protected virtual void OnLateUpdate(SystemBase system){}
+        protected virtual void OnExit(SystemBase system){}
         
         internal override BaseState GetSubStateInternal()
         {

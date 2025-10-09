@@ -350,7 +350,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1947164010}
   - component: {fileID: 1947164009}
-  - component: {fileID: 1947164011}
   m_Layer: 0
   m_Name: ECSSubScene
   m_TagString: Untagged
@@ -394,19 +393,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1947164011
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1947164008}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 963209290b08a8846819139d33a20f34, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Boot
-  globalConfigs: {fileID: 11400000, guid: f037c270532c63d48b42d131d2150d2b, type: 2}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

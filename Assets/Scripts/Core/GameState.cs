@@ -16,12 +16,12 @@ namespace Core
             typeof(CharacterControllerSystem),
         };
 
-        public override void OnEnter(SystemBase system)
+        protected override void OnEnter(SystemBase system)
         {
             Debug.Log("Enter GameState");
         }
         
-        public override void OnExit(SystemBase system)
+        protected override void OnExit(SystemBase system)
         {
             Debug.Log("Exit GameState");
         }

@@ -11,11 +11,13 @@ namespace Data
     {
         [SerializeField] private GameplayConfig gameplayConfig;
         [SerializeField] private AIBehaviourConfig aiBehaviourConfig;
+        [SerializeField] private ScenesConfig scenesConfig;
         
         public override void Bake(World world)
         {
             world.EntityManager.CreateSingleton(gameplayConfig);
             world.EntityManager.CreateSingleton(aiBehaviourConfig);
+            world.EntityManager.CreateSingleton(scenesConfig);
         }
     }
 }

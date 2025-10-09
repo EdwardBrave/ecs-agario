@@ -13,7 +13,7 @@ namespace Core
         {
             Application.targetFrameRate = 60;
             globalConfigs.Bake(World.DefaultGameObjectInjectionWorld);
-            HsmTools.InitHsm(new GameState());
+            HsmTools.InitHsm(new BootState());
         }
         
     }
