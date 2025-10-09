@@ -1,0 +1,12 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/BaseStyle.uss?fileID=7433441132597879392&amp;guid=2b45b0c3fa66e8941a9281691309c503&amp;type=3#BaseStyle" />
+    <ui:VisualElement name="background" style="position: relative; width: 400px; height: 500px; margin-right: auto; margin-left: auto; margin-top: auto; margin-bottom: auto; padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px; background-color: rgba(30, 30, 30, 0.52); justify-content: space-evenly;">
+        <ui:Button text="Play" name="play-button" selectable="true" class="big-button" />
+        <ui:Button text="Exit" name="exit-button" selectable="true" class="big-button" />
+        <ui:Label text="info....." name="info-panel" data-source="project://database/Assets/UI/MainMenuDto.asset?fileID=11400000&amp;guid=6e0485e4d9307b842ac54cb08cdc4506&amp;type=2#MainMenuDto" style="color: rgb(255, 255, 255); -unity-font-style: bold; font-size: 20px;">
+            <Bindings>
+                <ui:DataBinding property="text" data-source-path="InfoText" binding-mode="ToTarget" />
+            </Bindings>
+        </ui:Label>
+    </ui:VisualElement>
+</ui:UXML>

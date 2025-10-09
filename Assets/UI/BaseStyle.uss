@@ -1,0 +1,29 @@
+:root {
+}
+
+.big-button {
+    height: 70px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    -unity-font-style: bold;
+    font-size: 26px;
+    color: rgb(18, 40, 85);
+}
+
+.big-button:hover {
+    transition-property: scale;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in-cubic;
+    transition-delay: 0s;
+    scale: 1.05 1.05 1.05;
+}
+
+.big-button:active {
+    background-color: rgb(71, 73, 87);
+}
